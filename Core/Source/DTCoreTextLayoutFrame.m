@@ -1580,6 +1580,7 @@ static BOOL _DTCoreTextLayoutFramesShouldDrawDebugFrames = NO;
 				
 				if (attachment)
 				{
+					attachment.stringRange = oneRun.stringRange;
 					[tmpAttachments addObject:attachment];
 				}
 			}

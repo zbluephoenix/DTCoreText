@@ -175,6 +175,11 @@ typedef NS_ENUM(NSUInteger, DTTextAttachmentVerticalAlignment)
 @property (nonatomic, strong) NSDictionary *attributes;
 
 /**
+ The attributes range of the attachment
+ */
+@property (nonatomic, assign) NSRange stringRange;
+
+/**
  @name Customizing Attachments
  */
 
